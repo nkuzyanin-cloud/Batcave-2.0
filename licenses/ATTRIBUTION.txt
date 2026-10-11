@@ -1,0 +1,9 @@
+BATCAVE 1.7.0: AGPL-3.0-only. Original MIT notices retained.
+Panel detector: cedarrapidsboy/inkwell-panel-models, AGPL-3.0; unmodified best.onnx.
+https://huggingface.co/cedarrapidsboy/inkwell-panel-models/tree/fa7afba52ba7dc7b0840c7702b767972b5e17a9b
+SHA256: f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578
+Based on Ultralytics YOLOv8 (Glenn Jocher, Ayush Chaurasia, Jing Qiu; AGPL-3.0).
+ONNX Runtime 1.30.0: Microsoft, MIT.
+https://github.com/microsoft/onnxruntime/tree/v1.30.0
+Complete BATCAVE source: batcave-source.zip (available from Settings).
+All detection runs locally. No comic pages are transmitted.
