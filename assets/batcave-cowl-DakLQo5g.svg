@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Batcave — маска Бэтмена</title>
+<desc id="desc">Объёмная графитовая маска с длинными ушами, нахмуренными надбровными дугами, светлыми глазами и открытой нижней частью лица. Самостоятельный вектор без растровых изображений.</desc>
+<defs>
+ <linearGradient id="shell" x1="72" y1="80" x2="255" y2="285" gradientUnits="userSpaceOnUse"><stop stop-color="#444b51"/><stop offset=".23" stop-color="#181d22"/><stop offset=".6" stop-color="#080c11"/><stop offset="1" stop-color="#30383f"/></linearGradient>
+ <linearGradient id="earL" x1="58" y1="105" x2="100" y2="112" gradientUnits="userSpaceOnUse"><stop stop-color="#090d11"/><stop offset=".55" stop-color="#30383e"/><stop offset="1" stop-color="#12171c"/></linearGradient>
+ <linearGradient id="earR" x1="225" y1="110" x2="262" y2="101" gradientUnits="userSpaceOnUse"><stop stop-color="#171c21"/><stop offset=".8" stop-color="#080c10"/><stop offset="1" stop-color="#444e56"/></linearGradient>
+ <radialGradient id="forehead" cx="0" cy="0" r="1" gradientTransform="translate(127 134) rotate(80) scale(91 93)" gradientUnits="userSpaceOnUse"><stop stop-color="#6f7981" stop-opacity=".52"/><stop offset=".47" stop-color="#4b555e" stop-opacity=".22"/><stop offset="1" stop-color="#080c11" stop-opacity="0"/></radialGradient>
+ <linearGradient id="edge" x1="67" y1="32" x2="261" y2="294" gradientUnits="userSpaceOnUse"><stop stop-color="#a7b1b9"/><stop offset=".26" stop-color="#6d7982" stop-opacity=".4"/><stop offset=".65" stop-color="#151e26"/><stop offset="1" stop-color="#7b8994" stop-opacity=".7"/></linearGradient>
+ <linearGradient id="fold" x1="121" y1="167" x2="153" y2="214" gradientUnits="userSpaceOnUse"><stop stop-color="#626c74" stop-opacity=".6"/><stop offset="1" stop-color="#1e272e" stop-opacity=".2"/></linearGradient>
+ <linearGradient id="nose" x1="146" y1="238" x2="175" y2="238" gradientUnits="userSpaceOnUse"><stop stop-color="#060a0e"/><stop offset=".46" stop-color="#222d36"/><stop offset=".5" stop-color="#85939e"/><stop offset=".57" stop-color="#47545e"/><stop offset="1" stop-color="#12191f"/></linearGradient>
+ <linearGradient id="eyes" x1="160" y1="208" x2="160" y2="246" gradientUnits="userSpaceOnUse"><stop stop-color="#fcffff"/><stop offset="1" stop-color="#b8d1de"/></linearGradient>
+ <linearGradient id="cheek" x1="91" y1="239" x2="131" y2="283" gradientUnits="userSpaceOnUse"><stop stop-color="#66727d" stop-opacity=".4"/><stop offset="1" stop-color="#11191f" stop-opacity="0"/></linearGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="3"/></filter>
+ <clipPath id="maskClip"><path id="silhouette" d="M45 282C38 229 45 157 56 92L70 27C72 18 78 16 81 27L99 111C103 121 111 116 123 114C147 109 173 109 197 114C209 116 217 121 221 111L239 27C242 16 248 18 250 27L264 92C275 157 282 229 275 282C274 289 269 292 257 293L247 294L241 274C238 267 230 267 220 265L181 262L160 266L139 262L100 265C90 267 82 267 79 274L73 294L63 293C51 292 46 289 45 282Z"/></clipPath>
+</defs>
+<g clip-path="url(#maskClip)">
+ <path d="M30 10H290V305H30Z" fill="url(#shell)"/>
+ <path d="M49 202C48 154 57 72 75 22L94 111C83 125 60 141 49 202Z" fill="url(#earL)"/>
+ <path d="M271 202C272 154 263 72 245 22L226 111C237 125 260 141 271 202Z" fill="url(#earR)"/>
+ <ellipse cx="160" cy="169" rx="112" ry="88" fill="url(#forehead)"/>
+ <path d="M79 29L96 111Q98 121 109 120" stroke="#d1d7db" stroke-opacity=".65" stroke-width="2.7" stroke-linecap="round"/>
+ <path d="M241 28L224 112Q222 121 211 120" stroke="#c8d4dc" stroke-opacity=".8" stroke-width="2.4" stroke-linecap="round"/>
+ <path d="M79 126C57 164 50 220 60 277" stroke="#84919b" stroke-opacity=".3" stroke-width="4" filter="url(#soft)"/>
+ <path d="M242 131C259 173 268 225 261 278" stroke="#72838e" stroke-opacity=".3" stroke-width="4" filter="url(#soft)"/>
+ <!-- Folded brow, drawn as continuous sculpted surfaces. -->
+ <path d="M100 148C117 163 126 184 141 201C145 206 149 209 153 210C149 191 140 173 129 162C138 178 142 188 144 197C126 180 118 159 100 148Z" fill="url(#fold)"/>
+ <path d="M220 148C203 163 194 184 179 201C175 206 171 209 167 210C171 191 180 173 191 162C182 178 178 188 176 197C194 180 202 159 220 148Z" fill="url(#fold)"/>
+ <path d="M80 185C97 186 123 198 147 212C132 209 116 205 100 201C87 198 79 197 73 201C72 195 75 189 80 185Z" fill="#64727c" fill-opacity=".34"/>
+ <path d="M240 185C223 186 197 198 173 212C188 209 204 205 220 201C233 198 241 197 247 201C248 195 245 189 240 185Z" fill="#64727c" fill-opacity=".28"/>
+ <!-- Deep sockets and bold, uninterrupted eye shapes. -->
+ <path d="M73 206C84 196 118 206 148 220C137 240 107 254 87 248C76 244 70 221 73 206Z" fill="#020508"/>
+ <path d="M247 206C236 196 202 206 172 220C183 240 213 254 233 248C244 244 250 221 247 206Z" fill="#020508"/>
+ <path d="M80 210C91 204 115 213 141 223C129 235 104 245 91 241C83 239 77 220 80 210Z" fill="url(#eyes)"/>
+ <path d="M240 210C229 204 205 213 179 223C191 235 216 245 229 241C237 239 243 220 240 210Z" fill="url(#eyes)"/>
+ <path d="M78 210C89 202 114 212 142 222M242 210C231 202 206 212 178 222" stroke="#71818d" stroke-opacity=".55" stroke-width="1.8" stroke-linecap="round"/>
+ <path d="M151 218Q160 211 169 218L181 262L160 266L139 262Z" fill="url(#nose)"/>
+ <path d="M160 220V259" stroke="#a4b2bc" stroke-opacity=".26" stroke-width="1"/>
+ <path d="M88 251C105 256 126 244 137 238L127 256L84 268L73 289C75 274 79 260 88 251Z" fill="url(#cheek)"/>
+ <path d="M232 251C215 256 194 244 183 238L193 256L236 268L247 289C245 274 241 260 232 251Z" fill="url(#cheek)" opacity=".65"/>
+ <path d="M81 274C90 266 116 264 139 262L160 266L181 262C204 264 230 266 239 274" stroke="#9ba9b2" stroke-opacity=".4" stroke-width="1.3"/>
+</g>
+<use href="#silhouette" stroke="url(#edge)" stroke-width="1.7" stroke-linejoin="round"/>
+</svg>
