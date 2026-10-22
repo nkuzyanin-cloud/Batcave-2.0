@@ -356,6 +356,17 @@ SOFTWARE.
 
 ========================================================================
 
+reader-shelf.txt
+
+Reader shelf artwork
+
+Original illustration created for this project with OpenAI image generation.
+The application reveals the shared image through fifty separate spine slices.
+The illustration does not reuse the preview mockups or user comic covers.
+
+
+========================================================================
+
 zod.txt
 
 MIT License
