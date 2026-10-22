@@ -1,4 +1,4 @@
-_noble_hashes.txt 
+_noble_hashes.txt
 
 The MIT License (MIT)
 
@@ -360,9 +360,11 @@ reader-shelf.txt
 
 Reader shelf artwork
 
-Original illustration created for this project with OpenAI image generation.
-The application reveals the shared image through fifty separate spine slices.
-The illustration does not reuse the preview mockups or user comic covers.
+Original noir city illustration created for this project with OpenAI image generation.
+Based on the user's selected night-city shelf concept. The illustration was prepared
+as one flat texture without pre-rendered bindings, labels or shelf. The application
+reveals it through fifty separate matte paper spine slices, left to right.
+Source artwork: src/assets/reader-shelf-city.webp. No user comic covers are used.
 
 
 ========================================================================
