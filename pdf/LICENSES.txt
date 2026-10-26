@@ -58,6 +58,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ========================================================================
 
+achievement-artwork.txt
+
+Original achievement illustration assets created for this reader, October 2026.
+48 individual transparent WebP illustrations, no third-party comic covers or logos.
+The achievement catalog, conditions and existing earned state remain unchanged.
+
+
+========================================================================
+
 idb.txt
 
 ISC License (ISC)
