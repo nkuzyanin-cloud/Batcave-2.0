@@ -365,6 +365,13 @@ SOFTWARE.
 
 ========================================================================
 
+reader-rank-artwork.txt
+
+Reader rank award illustrations: original AI-generated artwork created for this project, October 2026. Four evolving open-book sculptures, approved bronze/silver/gold/platinum design. Cropped and resized for application use. No existing comic covers or personal data.
+
+
+========================================================================
+
 reader-shelf.txt
 
 Reader shelf artwork
